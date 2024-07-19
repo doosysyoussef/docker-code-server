@@ -4,8 +4,8 @@ FROM ghcr.io/linuxserver/baseimage-ubuntu:jammy
 ARG BUILD_DATE
 ARG VERSION
 ARG CODE_RELEASE
-LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
-LABEL maintainer="aptalca"
+LABEL build_version="usf.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
+LABEL maintainer="usf"
 
 # environment settings
 ARG DEBIAN_FRONTEND="noninteractive"
