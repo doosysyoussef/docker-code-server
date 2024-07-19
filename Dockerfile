@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-ubuntu:jammy
+FROM ubuntu:oracular-20240617
 
 # set version label
 ARG BUILD_DATE
